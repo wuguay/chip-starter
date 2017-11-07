@@ -1,10 +1,6 @@
-# chip-starter
-
-Chip - Starter Application
-
 # Chip Starter using Angular Meteor Ionic
 
-This is the starter package for building and testing modules built for the ecosystem
+Chip - Starter Application.  This is the starter package for building and testing modules built for the ecosystem
 
 ## How AOT works?
 

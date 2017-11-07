@@ -1,7 +1,17 @@
 {
-  "name": "chip-starter",
+  "name": "@chip/starter",
   "version": "0.1.0",
   "private": false,
+   "author": "Bomip Inc.",
+   "license": "MIT",
+   "keywords": [
+     "bomip", "chip", "starter"
+   ],
+   "bugs": {
+     "url": "https://www.bomip.com"
+   },
+   "homepage": "https://www.bomip.com",
+   "description": "Chip starter package for building modules.",
   "scripts": {
     "start": "meteor run --settings private/settings-dev.json",
     "prod": "meteor --settings private/settings-prod.json"
