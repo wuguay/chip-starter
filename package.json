@@ -34,6 +34,7 @@
     "@angular/platform-browser-dynamic": "^5.0.0",
     "@angular/platform-server": "^5.0.0",
     "@angular/router": "^5.0.0",
+    "@bomip/core": "git+https://github.com/wuguay/bomip-core.git",
     "babel-runtime": "^6.26.0",
     "bcrypt": "^1.0.2",
     "lodash": "^4.17.4",
