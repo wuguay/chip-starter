@@ -28,6 +28,7 @@
     "@types/node"
   ],
   "exclude": [
+    ".meteor",
     "node_modules"
   ],
   "compileOnSave": false,
