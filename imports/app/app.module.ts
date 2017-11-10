@@ -33,7 +33,7 @@ export function loadChipIonicModule() {
           title: 'Add Todo'
         }
       },
-      { path: 'ionic', loadChildren: loadChipIonicModule},
+      // { path: 'ionic', loadChildren: loadChipIonicModule},
       // Home Page
       {
         path: '',
