@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { TodoComponent } from '@chip/ionic';
 
 @NgModule({
   imports: [
@@ -28,6 +29,13 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
           title: 'Add Todo'
         }
       },
+      {
+        path: 'todoAdd1',
+        component: TodoComponent,
+        data: {
+          title: 'Add Todo'
+        }
+      },
       // Home Page
       {
         path: '',
@@ -45,6 +53,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ])
   ],
   declarations: [
+    TodoComponent,
     AppComponent,
     TodoListComponent,
     PageNotFoundComponent
