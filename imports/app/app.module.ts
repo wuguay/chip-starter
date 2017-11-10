@@ -5,11 +5,6 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-// import { ChipIonicModule } from '@chip/ionic';
-
-export function loadChipIonicModule() {
-    return module.dynamicImport('@chip/ionic').then(({ChipIonicModule}) => ChipIonicModule)
-}
 
 @NgModule({
   imports: [
@@ -33,7 +28,6 @@ export function loadChipIonicModule() {
           title: 'Add Todo'
         }
       },
-      // { path: 'ionic', loadChildren: loadChipIonicModule},
       // Home Page
       {
         path: '',
